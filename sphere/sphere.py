@@ -36,7 +36,8 @@ class Sphere(object):
         # uncomment the following 2 lines
         with open(filename, "w") as f:
             pickle.dump(self, f)
-        pass
+        a = 7
+	pass
 
 def loadSphere(filename):
     # *** STEP 7 ***
